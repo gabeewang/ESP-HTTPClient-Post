@@ -4,12 +4,12 @@
 
 //定義ESP8266將要連接Wi-Fi的名稱及密碼
 #ifndef STASSID
-#define STASSID "Q119-2.4G"
-#define STAPSK  "Q119Q119"
+#define STASSID "your Wi-Fi SSID"
+#define STAPSK  "your Wi-Fi Password"
 #endif
 
 //定義要進行網頁POST目標伺服器的IP位置以及後端處理的網頁文件
-#define SERVER_IP "http://192.168.117.48" //記得加上http或https
+#define SERVER_IP "IP of remote server" //記得加上http或https
 #define SERVER_PATH "/Test/Post/HttpPostReceive.aspx"
 
 void setup() {
